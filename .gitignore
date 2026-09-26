@@ -6,3 +6,4 @@ plugin/bin/
 *.partial
 player/
 VALIDATION.md
+*.log
