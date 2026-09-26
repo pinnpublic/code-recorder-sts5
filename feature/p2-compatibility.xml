@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- STS 5.2.0 already provides Commons Logging. Its cached repository candidates
+     otherwise introduce this bridge when installing an unrelated recorder.
+     Do not replace the tested logging providers during recorder installation. -->
+<requires>
+  <required match="id == 'jcl.over.slf4j' &amp;&amp; version == version('2.0.18')" min="0" max="0" greedy="false" />
+</requires>
